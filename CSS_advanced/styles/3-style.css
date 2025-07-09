@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Foreground color for body */
+body {
+  color: #161616;
+}
+
+/* Foreground color for all <a> tags */
+a {
+  color: #161616;
+}
+
+/* Hide visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Foreground color for card-category class */
+.card-category {
+  color: #D73953;
+}
+
+/* Foreground color for section-tagline class */
+.section-tagline {
+  color: #D73953;
+}
+
+/* Custom properties (variables) */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
+
+/* Foreground color for body */
+body {
+  color: var(--text-color);
+}
+
+/* Foreground color for all <a> tags */
+a {
+  color: var(--text-color);
+}
+
+/* Hide visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Foreground color for card-category class */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Foreground color for section-tagline class */
+.section-tagline {
+  color: var(--color-primary);
+}

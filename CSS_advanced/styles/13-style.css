@@ -81,10 +81,24 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* Foreground color for all <a> tags */
-a {
+/* Target anchor elements that have an href attribute */
+a[href] {
   color: var(--text-color);
-  text-decoration: none;
+}
+
+/* Visited state: italic text */
+a[href]:visited {
+  font-style: italic;
+}
+
+/* Hover state: underline the text */
+a[href]:hover {
+  text-decoration: underline;
+}
+
+/* Active state: light grey background */
+a[href]:active {
+  background-color: var(--color-light-grey);
 }
 
 /* Hide visually hidden elements */
@@ -124,24 +138,4 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
-}
-
-/* Target anchor elements that have an href attribute */
-a[href] {
-  color: var(--text-color);
-}
-
-/* Visited state: italic text */
-a[href]:visited {
-  font-style: italic;
-}
-
-/* Hover state: underline the text */
-a[href]:hover {
-  text-decoration: underline;
-}
-
-/* Active state: light grey background */
-a[href]:active {
-  background-color: var(--color-light-grey);
 }

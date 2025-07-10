@@ -91,7 +91,7 @@ a {
 }
 
 /* add section-tagline class and alignment for this */
-.section-header-align {
+.section-header {
   text-align: var(--section-header-align);
 }
 

@@ -495,8 +495,9 @@ a:active {
 
 /* styling the container */
 .container {
-  font-weight: 960;
-  margin: auto;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Font styling for all heading levels */

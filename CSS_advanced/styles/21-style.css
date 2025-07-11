@@ -595,6 +595,16 @@ ul.row {
   list-style: none;
 }
 
+/* One-third column */
+.col-1-3 {
+  width: 33.33%;
+}
+
+/* Half column */
+.col-1-2 {
+  width: 50%;
+}
+
 /* Footer copyright */
 .footer-copyright {
   margin: 0;

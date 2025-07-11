@@ -434,40 +434,6 @@ a {
   --nav-item-link-hover: var(--color-primary);
 }
 
-/* Navbar menu floats right */
-.navbar-menu {
-  float: right;
-}
-
-/* Nav base styling */
-.nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-
-/* Nav item styling */
-.nav .nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-  display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
-}
-
-/* Nav link styling */
-.nav .nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-}
-
-/* Hover effect for nav links */
-.nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
-}
-
 /* Universal box-sizing rule */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -578,4 +544,38 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer */
 .footer {
   padding: var(--footer-padding);
+}
+
+/* Navbar menu floats right */
+.navbar-menu {
+  float: right;
+}
+
+/* Nav base styling */
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+/* Nav item styling */
+.nav .nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
+
+/* Nav link styling */
+.nav .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+/* Hover effect for nav links */
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
